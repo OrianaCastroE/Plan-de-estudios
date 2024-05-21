@@ -58,7 +58,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 640px) { 
+@media (max-width: 640px) { 
     
     .fondo {
         min-height: 70vh; /* Opcional: altura mínima para cubrir toda la ventana */
