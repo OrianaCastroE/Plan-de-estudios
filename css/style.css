@@ -58,84 +58,6 @@ h2 {
 }
 
 
-@media (max-width: 640px) { 
-    
-    .fondo {
-        min-height: 70vh; /* Opcional: altura mínima para cubrir toda la ventana */
-    }
-
-    .inicio {
-        font-size: 40px;
-    }
-
-    
-    .carrera {
-        margin-top: 30px;
-    }
-
-    .centrado {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .parrafo {
-        font-size: 20px;
-        text-align: justify;
-        margin: 10px;
-        margin-bottom: 30px;
-        padding: 10px;
-        color: #000000;
-    }
-
-    .container {
-        display: block;
-    }
-    .ref {
-        width: 100%;
-    }
-    .materias {
-        width: 100%;
-    }
-    .taller {
-        width: 100%;
-    }
-    .proyecto {
-        width: 100%;
-    }
-    .grande {
-        grid-column: 1 / 3;
-        grid-row: 2 / 3;
-    }
-    .columna1 {
-        grid-column: 1 / 3;
-        grid-row: 1 / 2;
-    }
-    .columna2 {
-        grid-column: 1 / 3;
-        grid-row: 2 / 3;
-    }
-    .p {
-        grid-template-columns: 1fr;
-    }
-    .mensaje {
-        bottom: 10%;
-        right: 10%;
-        left: 10%;
-    }
-    .mensajeRef {
-        top: 10%;
-        right: 10%;
-        left: 10%;
-    }
-
-}
-
-
-
-
-
-
-
 .subInicio {
     font-size: 15px;
     text-align: center;
@@ -339,27 +261,68 @@ h2 {
     color: #ffffff;
     padding: 10px;
     border: 1px solid #000000;
-    font-size: 30px;
     border-radius: 5px;
     position: fixed;
-    bottom: 20%;
-    right: 40%;
-    left: 40%;
     box-shadow: 0px 0px 5px 0px rgb(22, 42, 20);
     transition: opacity 0.5s; /* Transición suave */
 }
-
 
 .mensajeRef {
-    padding: 10px;
     border: 1px solid #000000;
-    font-size: 30px;
     border-radius: 5px;
     position: fixed;
-    top: 20%;
-    right: 30%;
-    left: 30%;
     box-shadow: 0px 0px 5px 0px rgb(22, 42, 20);
     transition: opacity 0.5s; /* Transición suave */
 }
+
+@media (max-width: 640px) { 
+    
+    .fondo {
+        min-height: 70vh; /* Opcional: altura mínima para cubrir toda la ventana */
+    }
+
+    .inicio {
+        font-size: 40px;
+    }
+
+    
+    .carrera {
+        margin-top: 30px;
+    }
+
+    .centrado {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .parrafo {
+        font-size: 20px;
+        text-align: justify;
+        margin: 10px;
+        margin-bottom: 30px;
+        padding: 10px;
+        color: #000000;
+    }
+
+    .mensaje {
+        font-size: 20px;
+        bottom: 20%;
+        right: 20%;
+        left: 20%;
+    }
+
+    .mensajeRef {
+        font-size: 30px;
+        top: 20%;
+        right: 10%;
+        left: 10%;
+    }
+
+}
+
+
+
+
+
+
 
