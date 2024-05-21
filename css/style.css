@@ -6,6 +6,8 @@
     color: white; /* Opcional: color de texto blanco para mejor legibilidad */
     background-image: url("../fondo.jpg"); /* Ruta de la imagen de fondo */
     text-shadow: #000000 1px 1px 1px; /* Sombra del texto */
+    min-height: 500px;
+
 }
 
 .head {
@@ -278,7 +280,7 @@ h2 {
 @media (max-width: 640px) { 
     
     .fondo {
-        min-height: 70vh; /* Opcional: altura mínima para cubrir toda la ventana */
+        min-height: auto;
     }
 
     .inicio {
