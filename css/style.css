@@ -63,15 +63,6 @@ h2 {
     color: #000000;
 }
 
-.round-image:hover {
-    transform: rotate(360deg); /* Gira la imagen 360 grados */
-    content: "REFERENCIA"; /* Añade un texto al elemento */
-    background-color: #cbccc8; /* Color de fondo */
-    color: #000000; /* Color del texto */
-    box-shadow: 0px 0px 5px 0px rgb(23, 52, 21); /* Sombra cuando el mouse está encima */
-}
-
-
 .ref {
     border-radius: 12px;
     border: 1px solid #000;
@@ -353,6 +344,14 @@ h2 {
         clip-path: circle(); /* Forma circular */
         transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */ 
     }
+
+    .round-image:hover {
+        transform: rotate(360deg); /* Gira la imagen 360 grados */
+        content: "REFERENCIA"; /* Añade un texto al elemento */
+        background-color: #cbccc8; /* Color de fondo */
+        color: #000000; /* Color del texto */
+        box-shadow: 0px 0px 5px 0px rgb(23, 52, 21); /* Sombra cuando el mouse está encima */
+    }    
 
     .parrafo {
         font-size: 20px;
