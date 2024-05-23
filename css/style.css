@@ -46,7 +46,7 @@ h2 {
     /*background-color: rgb(228, 210, 186);*/
     border-radius: 12px;
     padding: 20px;
-    box-shadow: #000000;
+    border: #000000 1px solid;
 }
 
 .parrafo {
@@ -113,7 +113,6 @@ h2 {
 .semestre {
     color: #d8d8d8;
 }
-
 
 .materias {
     height: 80px; /* Altura del contenedor */
