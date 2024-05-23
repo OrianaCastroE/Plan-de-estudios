@@ -238,7 +238,7 @@ function elegida(id){
 // Semestre 2
 
 FSC.addEventListener("click", function() {
-    apagarMarcado()
+    apagarMarcado();
     resetearMaterias();
     creditoParcial(CV);
     elegida(FSC);
