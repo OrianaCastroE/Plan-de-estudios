@@ -3,12 +3,9 @@
     background-attachment: fixed; /* Fija la imagen de fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center top; /* Centra la imagen de fondo */
-    color: rgb(0, 0, 0); /* Opcional: color de texto blanco para mejor legibilidad */
     background-image: url("../fondo.jpg"); /* Ruta de la imagen de fondo */
     box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
-    text-shadow: #ffffff 1px 1px 1px; /* Sombra del texto */
-    min-height: 593px;
-    max-width: 1054px;
+    min-height: 500px;
 }
 
 .head {
@@ -31,6 +28,7 @@ h2 {
 
 .inicio {
     color: #ffffff;
+    text-shadow: #000000 1px 1px 1px; /* Sombra del texto */
     font-weight: bold;
     display: flex;
     justify-content: center;
