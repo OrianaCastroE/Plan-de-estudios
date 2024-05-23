@@ -65,6 +65,10 @@ h2 {
     color: #000000;
 }
 
+.referencias{
+    margin-bottom: 10px;
+}
+
 .ref {
     border-radius: 12px;
     border: 1px solid #000;
