@@ -45,6 +45,7 @@ h2 {
     /*background-color: rgb(228, 210, 186);*/
     border-radius: 12px;
     padding: 20px;
+    box-shadow: #000000;
 }
 
 .parrafo {
@@ -281,6 +282,7 @@ h2 {
         shape-outside: circle(); /* Forma circular */
         clip-path: circle(); /* Forma circular */
         transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */ 
+        border: #000000;
     }
 
     .parrafo {
@@ -343,6 +345,7 @@ h2 {
         shape-outside: circle(); /* Forma circular */
         clip-path: circle(); /* Forma circular */
         transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */ 
+        border: #000000;
     }
 
     .round-image:hover {
