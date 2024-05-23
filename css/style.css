@@ -334,9 +334,9 @@ h2 {
     }
 
     .round-image{
-        width: 200px;
-        height: 200px;
-        margin: 40px;
+        width: 150px;
+        height: 150px;
+        margin: 20px;
         float: left;
         shape-outside: circle(); /* Forma circular */
         clip-path: circle(); /* Forma circular */
@@ -345,14 +345,13 @@ h2 {
 
     .round-image:hover {
         transform: rotate(360deg); /* Gira la imagen 360 grados */
-        content: "REFERENCIA"; /* Añade un texto al elemento */
         background-color: #cbccc8; /* Color de fondo */
         color: #000000; /* Color del texto */
         box-shadow: 0px 0px 5px 0px rgb(23, 52, 21); /* Sombra cuando el mouse está encima */
     }    
 
     .parrafo {
-        font-size: 20px;
+        font-size: 15px;
         text-align: justify;
         margin: 10px;
         margin-bottom: 30px;
@@ -361,14 +360,14 @@ h2 {
     }
 
     .mensaje {
-        font-size: 20px;
+        font-size: 15px;
         bottom: 20%;
         right: 20%;
         left: 20%;
     }
 
     .mensajeRef {
-        font-size: 30px;
+        font-size: 20px;
         top: 20%;
         right: 10%;
         left: 10%;
