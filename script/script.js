@@ -106,6 +106,7 @@ function apagarMarcado(){
         resetearMaterias();
         marcado = false;
     }
+    marcado = !marcado;
 }
 
 function mostrarMensaje(cr){
@@ -237,6 +238,7 @@ function elegida(id){
 // Semestre 2
 
 FSC.addEventListener("click", function() {
+    apagarMarcado()
     resetearMaterias();
     creditoParcial(CV);
     elegida(FSC);
