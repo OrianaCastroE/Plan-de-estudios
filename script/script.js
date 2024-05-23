@@ -100,6 +100,14 @@ crT.addEventListener("click", function(){
     mostrarMensaje(crT);
 });
 
+let marcado = false;
+function apagarMarcado(){
+    if (marcado){
+        resetearMaterias();
+        marcado = false;
+    }
+}
+
 function mostrarMensaje(cr){
     eliminarTodo();
     var mensajeRef = document.createElement("div");
