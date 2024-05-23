@@ -35,7 +35,6 @@ h2 {
 }
 
 .carrera {
-    font-size: 30px;
     text-align: center;
     margin: 5px;
     padding: 5px;
@@ -272,6 +271,7 @@ h2 {
     
     .carrera {
         margin-top: 30px;
+        font-size: 30px;
     }
 
     .centrado {
