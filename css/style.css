@@ -41,7 +41,8 @@ h2 {
     padding: 5px;
     color: #000000;
     font-weight: bold;
-    background-color: rgb(228, 210, 186);
+    background-color: #898989;
+    /*background-color: rgb(228, 210, 186);*/
     border-radius: 12px;
     padding: 20px;
 }
