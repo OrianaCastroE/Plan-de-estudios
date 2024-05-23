@@ -157,6 +157,7 @@ h2 {
     border: 1px solid #000;
     background-color: #f5f5f5 ; /* Color de fondo */
     color: #000000;
+    cursor: pointer;
     text-align: center; /* Centra el texto horizontalmente */
     text-overflow: clip; /* No se corta el texto */
     display: flex; 
@@ -182,6 +183,7 @@ h2 {
     box-sizing: border-box; /* Incluye el padding en el ancho total */
     border-radius: 12px;
     border: 1px solid #000;
+    cursor: pointer;
     font-size: clamp(12px, 1vw, 24px); /* Tamaño de la fuente */
     display: flex; 
     justify-content: center; 
