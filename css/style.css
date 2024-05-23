@@ -103,7 +103,6 @@ h2 {
     display: content;
     justify-content: center;
     align-items: center;
-    padding: 1px;
 }
 
 .semestre {
@@ -112,7 +111,6 @@ h2 {
 
 
 .materias {
-    height: 80px; /* Altura del contenedor */
     flex-grow: 1; /* Hace que el contenedor crezca */
     margin: 5px;
     white-space: normal; /* Permite que el texto se divida en múltiples líneas */
@@ -295,6 +293,10 @@ h2 {
         color: #000000;
     }
 
+    .materias {
+        height: 50px; /* Altura del contenedor */
+    }
+
     .mensaje {
         font-size: 20px;
         bottom: 20%;
@@ -326,7 +328,6 @@ h2 {
     .inicio {
         font-size: 80px;
     }
-
     
     .carrera {
         margin-top: 30px;
@@ -364,6 +365,10 @@ h2 {
         margin-bottom: 30px;
         padding: 10px;
         color: #000000;
+    }
+
+    .materias {
+        height: 80px; /* Altura del contenedor */
     }
 
     .mensaje {
