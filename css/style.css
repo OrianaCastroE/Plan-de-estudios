@@ -40,9 +40,9 @@ h2 {
     text-align: center;
     margin: 5px;
     padding: 5px;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
-    background-color: #898989;
+    background-color: #737373;
     /*background-color: rgb(228, 210, 186);*/
     border-radius: 12px;
     padding: 20px;
@@ -111,6 +111,7 @@ h2 {
     display: content;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 
 .semestre {
