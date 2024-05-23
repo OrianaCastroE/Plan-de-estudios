@@ -124,7 +124,7 @@ h2 {
     padding: 5px; /* Añade un relleno al contenedor */
     cursor: pointer;
     box-shadow: 0px 0px 3px 0px rgb(0, 0, 0); /* Sombra cuando el mouse está encima */
-    font-size: clamp(20px, 1vw, 34px); /* Tamaño de la fuente */
+    font-size: clamp(16px, 1vw, 34px); /* Tamaño de la fuente */
     background-color: #5b6a5c ; /* Color de fondo */
     border-radius: 12px;
     border: 1px solid #000;
@@ -280,10 +280,12 @@ h2 {
     }
 
     .round-image{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         margin: 20px;
         float: center;
+        shape-outside: circle(); /* Forma circular */
+        clip-path: circle(); /* Forma circular */
         transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */ 
     }
 
