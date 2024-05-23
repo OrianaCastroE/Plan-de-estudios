@@ -33,6 +33,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: clamp(40px, 3vw, 80px); /* Tamaño de la fuente */
 }
 
 .carrera {
@@ -260,10 +261,6 @@ h2 {
     .fondo {
         min-height: 200px;
     }
-
-    .inicio {
-        font-size: 40px;
-    }
     
     .carrera {
         margin-top: 30px;
@@ -282,8 +279,7 @@ h2 {
         float: center;
         shape-outside: circle(); /* Forma circular */
         clip-path: circle(); /* Forma circular */
-        transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */ 
-        border: #000000;
+        transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */
     }
 
     .parrafo {
@@ -322,11 +318,6 @@ h2 {
     .fondo {
         min-height: 600px;
     }
-
-    .inicio {
-        font-size: 80px;
-    }
-
     
     .carrera {
         margin-top: 30px;
@@ -345,8 +336,7 @@ h2 {
         float: left;
         shape-outside: circle(); /* Forma circular */
         clip-path: circle(); /* Forma circular */
-        transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */ 
-        border: #000000;
+        transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */
     }
 
     .round-image:hover {
