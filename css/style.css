@@ -62,16 +62,6 @@ h2 {
     color: #000000;
 }
 
-.round-image{
-    width: 200px;
-    height: 200px;
-    margin: 40px;
-    float: left;
-    shape-outside: circle(); /* Forma circular */
-    clip-path: circle(); /* Forma circular */
-    transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */ 
-}
-
 .round-image:hover {
     transform: rotate(360deg); /* Gira la imagen 360 grados */
     content: "REFERENCIA"; /* Añade un texto al elemento */
@@ -289,6 +279,14 @@ h2 {
         margin-right: 2%;
     }
 
+    .round-image{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        float: center;
+        transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */ 
+    }
+
     .parrafo {
         font-size: 20px;
         text-align: justify;
@@ -338,6 +336,16 @@ h2 {
     .centrado {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .round-image{
+        width: 200px;
+        height: 200px;
+        margin: 40px;
+        float: left;
+        shape-outside: circle(); /* Forma circular */
+        clip-path: circle(); /* Forma circular */
+        transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */ 
     }
 
     .parrafo {
