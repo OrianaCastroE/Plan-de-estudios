@@ -189,7 +189,7 @@ h2 {
     border-radius: 12px;
     border: 1px solid #000;
     cursor: pointer;
-    font-size: clamp(12px, 1vw, 24px); /* Tamaño de la fuente */
+    font-size: clamp(16px, 1vw, 28px); /* Tamaño de la fuente */
     display: flex; 
     justify-content: center; 
     align-items: center; 
