@@ -334,8 +334,8 @@ h2 {
     }
 
     .round-image{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         margin: 20px;
         float: left;
         shape-outside: circle(); /* Forma circular */
@@ -351,7 +351,7 @@ h2 {
     }    
 
     .parrafo {
-        font-size: 15px;
+        font-size: 24px;
         text-align: justify;
         margin: 10px;
         margin-bottom: 30px;
