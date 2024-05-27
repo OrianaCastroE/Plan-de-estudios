@@ -255,7 +255,7 @@ h2 {
     transition: opacity 0.5s; /* Transición suave */
 }
 
-@media (max-width: 1000px) { 
+@media (max-width: 900px) { 
     .container {
         display: content;
         justify-content: center;
@@ -311,7 +311,7 @@ h2 {
 }
 
 
-@media (min-width: 1000px) { 
+@media (min-width: 900px) { 
     
     .container {
         display: flex;
@@ -320,7 +320,7 @@ h2 {
     }    
 
     .fondo {
-        min-height: 600px;
+        min-height: 400px;
     }
     
     .carrera {
@@ -345,9 +345,6 @@ h2 {
 
     .round-image:hover {
         transform: rotate(360deg); /* Gira la imagen 360 grados */
-        background-color: #cbccc8; /* Color de fondo */
-        color: #000000; /* Color del texto */
-        box-shadow: 0px 0px 5px 0px rgb(23, 52, 21); /* Sombra cuando el mouse está encima */
     }    
 
     .parrafo {
