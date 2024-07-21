@@ -322,7 +322,7 @@ AL2.addEventListener("click", function() {
 TDC.addEventListener("click", function() {
     resetearMaterias();
     créditosTotales(9);
-    creditoParcial(A2);
+    creditoParcial(A1);
     creditoParcial(LC);
     elegida(TDC);
 });
