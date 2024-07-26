@@ -136,7 +136,7 @@ h2 {
 }
     
 .materias:hover {
-    background-color:  #cbccc8;
+    background-color:  #cbccc8  ;
     color: #000000;
     box-shadow: 0px 0px 5px 0px rgb(23, 52, 21); /* Sombra cuando el mouse está encima */
     transform: scale(1.2); /* Agrandar el elemento al 110% de su tamaño original */
