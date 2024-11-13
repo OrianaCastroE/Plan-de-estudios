@@ -94,7 +94,6 @@ h2 {
 .cp {
     background-color: #b6b6dc;
     color: #000000;
-    display: grid;
 }
 
 .ct {
@@ -124,7 +123,6 @@ h2 {
     cursor: pointer;
     box-shadow: 0px 0px 3px 0px rgb(0, 0, 0); /* Sombra cuando el mouse está encima */
     font-size: clamp(16px, 1vw, 28px); /* Tamaño de la fuente */
-    background-color: #5b6a5c ; /* Color de fondo */
     border-radius: 12px;
     border: 1px solid #000;
     text-align: center; /* Centra el texto horizontalmente */
@@ -133,6 +131,16 @@ h2 {
     justify-content: center; 
     align-items: center; 
     transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Transición de 0.5 segundos */ 
+}
+
+.mat70 {
+    background-color: #a8a8a8;
+    color: #000000;
+}
+
+.mat86 {
+    background-color: #5f5f60;
+    color: #ffffff;
 }
     
 .materias:hover {
@@ -148,7 +156,7 @@ h2 {
     border: 3px solid #000;
     box-shadow: 0px 0px 5px 0px rgb(0, 0, 0); /* Sombra cuando el mouse está encima */    
     padding: 5px;
-    background-color:  #8d9283;
+    background-color:  #716e457c;
     margin-bottom: 15px;
 }
 
@@ -182,7 +190,7 @@ h2 {
 .taller {
     width: 100%; /* Ocupa todo el ancho disponible */
     height: 80px; /* Altura del contenedor */
-    background-color:  #555c49 ; /* Color de fondo */
+    background-color:  #596456 ; /* Color de fondo */
     padding: 10px; /* Espaciado interno */
     margin: 5px; /* Elimina el margen exterior */
     box-sizing: border-box; /* Incluye el padding en el ancho total */
